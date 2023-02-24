@@ -1,0 +1,448 @@
+@charset "UTF-8";
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.img_box{
+    text-align: center;
+}
+
+.content_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_first{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+}
+
+.content_second{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    position: relative;
+    right: 250px;
+}
+
+.content_first a{
+    text-decoration: none;
+    color: black;
+}
+
+.content_second a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6091d3;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 80px
+}
+
+.nav_link{
+    padding-right: 80px
+}
+
+.nav_link_works{
+    padding-left: 900px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_link_works a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.posts_box{
+    width: 70%;
+    margin: 5% auto;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+
+.title{
+    text-align: center;
+}
+
+.sub_title{
+    text-align: center;
+    font-weight: normal;
+}
+
+.posts_box_wrapper{
+    text-align: center;
+}
+
+.posts_box dt{
+    text-align: left;
+    padding-left: 300px;
+}
+
+.posts_box input{
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.posts_box dd{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.posts_box button{
+    color: black;
+    background-color: white;
+    width: 20%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.password_reset{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.admin_login{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.user_register{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.password_reset a{
+    color: blue;
+}
+
+.admin_login a{
+    color: gray;
+}
+
+.user_register a{
+    color: black;
+}
+
+.submit_box{
+    display: flex;
+    justify-content: center;
+}
+
+.submit_box a{
+    width: 20%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 30px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-top: 15px;
+}
+
+.complete a{
+    margin: 0;
+}
+
+.alert-danger{
+    color: red;
+    text-align: left;
+    padding-left: 300px;
+}
+
+.confirm_wrapper dt{
+    text-align: center;
+    padding: 0;
+}
+
+.confirm_wrapper div{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.success{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 15px 0;
+}
+
+.mypage_box{
+    margin: 2% auto;
+    padding-bottom: 20px;
+}
+
+.works_register_icon{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px
+}
+
+.works_register_icon a{
+    color: #6091d3;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.user_image img{
+    width: 30%;
+}
+
+.works_register_wrapper{
+    padding:  15px 5%;
+}
+
+.works_box_first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.works_register_box dt{
+    padding: 0;
+}
+
+.works_register_box dd{
+    padding: 0;
+}
+
+.works_register_box label{
+    font-weight: bold;
+}
+
+.works_register_box input{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.works_register_box p{
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.title_box{
+    width: 40%;
+}
+
+.title_box select{
+    width: 20%;
+    padding: 0.5%;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.body_box textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    height: 30vh;
+}
+
+.works_register_danger{
+    padding: 0;
+    font-size: 12px;
+}
+
+.works_view_format{
+    list-style: none;
+    padding: 0;
+    width: 5%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.works_view_box li{
+    border-radius: 3px;
+    background-color: rgba(var(--color-content,0,0,0),0.1);
+    padding-block: 3px;
+    padding-inline: 5px
+}
+
+.works_view_box_wrapper{
+    margin: 20px
+}
+
+.works_view_box_wrapper footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works_detail_link{
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.works_view_name{
+    padding: 5px 0;
+}
+
+.works_view_title{
+    margin-bottom: 0;
+}
+
+.works_image{
+    text-align: center;
+}
+
+.works_image img{
+    width: 30%;
+}
+
+.works_user_view_box{
+    margin: 0 auto;
+}
+
+.works_link_box{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: right;
+    padding-right: 230px
+}
+
+.works_user_title{
+    margin-bottom: 5%;
+}
+
+.detail_box_wrapper{
+    width: 70%;
+    margin: 5% auto;
+}
+
+.detail_title_box{
+    font-family: serif;
+    font-size: x-large;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+
+.detail_body_box{
+    font-family: serif;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+
+.detail_body_box p{
+    line-height: 2;
+    font-size: 17px
+}
+
+.detail_title_footer_box{
+    text-align: center;
+}
+
+.likes_button{
+    text-align: right;
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.liked{
+    color: red;
+    cursor: pointer;
+}
+
+.liked.\.unactive{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.like{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.like.\.active{
+    color: red;
+    cursor: pointer;
+}
+
+.likes_button_detail{
+    text-align: center;
+    margin: 0;
+}
+
+.alert-success{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 15px 0;
+}
+
+.search{
+    padding-left: 730px;
+}
+
+.pagination {
+    text-align: center;
+    padding: 0;
+}
+
+.pagination li{
+    display: inline-block;
+}
+
+.footer_wrapper{
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.footer_wrapper p{
+    color: white;
+    font-weight: bold;
+}
